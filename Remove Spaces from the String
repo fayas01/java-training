@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        String S = sc.nextLine();   // Read the input string
+        String result = S.replace(" ", "");  // Remove all spaces
+        
+        System.out.println(result);  // Print the modified string
+        
+        sc.close();
+    }
